@@ -148,12 +148,6 @@ body {
         font-size: 3em;
     }
 
-    body {
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-   
-    }
 
     .wrapper {
         display: grid;
@@ -189,7 +183,6 @@ body {
     }
 
     #projects-content {
-        
         padding-top: 1em;
     }
 
