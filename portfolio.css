@@ -1,0 +1,214 @@
+/* setting up here, just until I make my own repo */
+
+#portiat {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    padding: 2em;
+}
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #C3DAC3;
+    background-image: linear-gradient(#C3DAC3, white);
+ 
+}
+
+.name-title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    line-height: 5%;
+    padding-top: 2em;
+    padding-bottom: 3em;
+}
+
+#name {
+    font-size: 2em;
+}
+#title {
+    font-size: 1.2em;
+}
+
+ .site-main {
+
+    align-items: center;
+    font-size: 1em;
+    padding: 2em;
+    line-height: 2em;
+    border: 2px solid rgba(128, 128, 128, 0.247);
+    border-radius: 2%;
+    box-shadow: 5px 5px 5px rgba(167, 186, 192, 0.598);
+ }
+
+
+.skills-box {
+    padding: 1em;
+    line-height: 2em;
+    border: 2px solid rgba(128, 128, 128, 0.247);
+    border-radius: 2%;
+    box-shadow: 5px 5px 5px rgba(167, 186, 192, 0.598);
+}
+#skill-header {
+    font-size: 1.5em;
+    font-weight: bold;
+    align-items: center;
+
+}
+
+#skills-icons {
+    display: flex;
+    justify-content: space-around;
+    font-size: 3em;
+}
+
+#skills-text {
+    display:flex ;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1em;
+}
+
+#projects-box {
+    padding: 1em;
+    line-height: 2em;
+    border: 2px solid rgba(128, 128, 128, 0.247);
+    border-radius: 2%;
+    box-shadow: 5px 5px 5px rgba(167, 186, 192, 0.598);
+}
+
+#projects-header {
+    font-size: 1.5em;
+    font-weight: bold;
+    align-items: center;
+}
+
+#projects-content{ 
+    font-size: 1em;
+}
+ .contact-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2em;
+    padding-top: 4em;
+    justify-content: space-around;
+}
+
+#github,
+#linkdin-link {
+    font-size: 3em;
+}
+
+#github:hover {
+    animation: fa-flip 2s infinite linear;
+}
+#linkdin-link:hover { 
+    animation: fa-flip 2s infinite linear;
+}
+
+#email:hover {
+    animation: fa-beat 2s infinite;
+}
+
+
+
+
+@media screen and (min-width: 700px) {
+    body {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+    .site-main {
+        display: flex;
+        align-items: center;
+    }
+
+    #projects-content {
+        display: flex;
+        flex-direction: row;
+        padding-top: 1em;
+        font-size: 1.5em;
+    }
+
+
+@media screen and (min-width: 1000px) {
+    #portiat {
+        width: 280px;
+        height: 280px;
+    }
+
+    #name {
+        font-size: 4em;
+    }
+    #title {
+        font-size: 3em;
+    }
+
+    body {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+   
+    }
+
+    .wrapper {
+        display: grid;
+        gap: 10px;
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .site-main {
+        grid-row: 2;
+        grid-column: 1/5;
+        font-size: 35px; 
+        width: 82vw;
+    }
+
+    .skills-box {
+        display: grid;
+        grid-row: 5;
+        grid-column: 1/2;
+        font-size: 25px;
+        height: 350px;
+        width: 40vw;
+    }
+
+    #projects-box {
+        display: grid;
+        font-size: 25px;
+        grid-row: 5;
+        grid-column: 3/5;
+        height: 350px;
+        width: 40vw;
+    }
+
+    #projects-content {
+        
+        padding-top: 1em;
+    }
+
+
+    #email {
+        font-size: 2em;
+     }
+    
+    #github, 
+    #linkdin-link {
+        font-size: 5em;
+    }
+
+    .contact-info {
+        display: flex;
+        flex-direction: row;
+        padding: 2em;
+        padding-top: 4em;
+        justify-content: space-evenly;
+    }
+    
+}
