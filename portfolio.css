@@ -1,4 +1,3 @@
-/* setting up here, just until I make my own repo */
 
 #portiat {
     border-radius: 50%;
@@ -152,6 +151,7 @@ body {
 #github:hover {
     animation: fa-flip 2s infinite linear;
 }
+
 #linkdin-link:hover { 
     animation: fa-flip 2s infinite linear;
 }
@@ -161,8 +161,6 @@ body {
 }
 
 
-
-
 @media screen and (min-width: 700px) {
 body {
     background-repeat: no-repeat;
@@ -170,11 +168,9 @@ body {
     background-position: center;
 }
 
-
 .site-main {
     display: flex;
     align-items: center;
-
 }
 
 #projects-content{
@@ -206,7 +202,6 @@ body {
 #title {
     font-size: 3em;
 }
-
 
 .site-main {
     font-size: 1.5em;
