@@ -30,8 +30,7 @@ body {
     font-size: 1.2em;
 }
 
- .site-main {
-
+.site-main {
     align-items: center;
     font-size: 1em;
     padding: 2em;
@@ -39,21 +38,49 @@ body {
     border: 2px solid rgba(128, 128, 128, 0.247);
     border-radius: 2%;
     box-shadow: 5px 5px 5px rgba(167, 186, 192, 0.598);
+    margin: 1rem;
  }
 
-
-.skills-box {
+#education-box {
     padding: 1em;
     line-height: 2em;
     border: 2px solid rgba(128, 128, 128, 0.247);
     border-radius: 2%;
     box-shadow: 5px 5px 5px rgba(167, 186, 192, 0.598);
+    margin: 1rem;
 }
+
+#education-header {
+    font-size: 1.5em;
+    font-weight: bold;
+    align-items: center;
+}
+
+.education {
+    line-height: 1em;
+    padding-left: 1em;
+}
+.education li{
+    font-weight: bold;
+}
+
+#skills-box {
+    padding: 1em;
+    line-height: 2em;
+    border: 2px solid rgba(128, 128, 128, 0.247);
+    border-radius: 2%;
+    box-shadow: 5px 5px 5px rgba(167, 186, 192, 0.598);
+    margin: 1rem;
+}
+
 #skill-header {
     font-size: 1.5em;
     font-weight: bold;
     align-items: center;
+}
 
+.skill-list{
+    padding-bottom: 1.5em;
 }
 
 #skills-icons {
@@ -75,6 +102,7 @@ body {
     border: 2px solid rgba(128, 128, 128, 0.247);
     border-radius: 2%;
     box-shadow: 5px 5px 5px rgba(167, 186, 192, 0.598);
+    margin: 1rem;
 }
 
 #projects-header {
@@ -83,10 +111,31 @@ body {
     align-items: center;
 }
 
-#projects-content{ 
-    font-size: 1em;
+#projects-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1em;
 }
- .contact-info {
+
+.projects {
+    display: flex;
+    min-width: 300px;
+    max-height: 400px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    border-bottom:  2px solid rgb(116, 112, 112);
+}
+
+.logo {
+    height: 150px;
+    width:150px;
+}
+
+.contact-info {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -115,93 +164,80 @@ body {
 
 
 @media screen and (min-width: 700px) {
-    body {
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-    }
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
-    .site-main {
-        display: flex;
-        align-items: center;
-    }
 
-    #projects-content {
-        display: flex;
-        flex-direction: row;
-        padding-top: 1em;
-        font-size: 1.5em;
-    }
+.site-main {
+    display: flex;
+    align-items: center;
+
+}
+
+#projects-content{
+    padding-top: 1em;
+    font-size: 1.5em;
+}
+
+.projects {
+    min-width: 500px;
+    max-height: auto;
+}
+
+.logo {
+    height: 180px;
+    width:180px;
+}
+}
 
 
 @media screen and (min-width: 1000px) {
-    #portiat {
-        width: 280px;
-        height: 280px;
-    }
+#portiat {
+    width: 280px;
+    height: 280px;
+}
 
-    #name {
-        font-size: 4em;
-    }
-    #title {
-        font-size: 3em;
-    }
-
-
-    .wrapper {
-        display: grid;
-        gap: 10px;
-        max-width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .site-main {
-        grid-row: 2;
-        grid-column: 1/5;
-        font-size: 35px; 
-        width: 82vw;
-    }
-
-    .skills-box {
-        display: grid;
-        grid-row: 5;
-        grid-column: 1/2;
-        font-size: 25px;
-        height: 350px;
-        width: 40vw;
-    }
-
-    #projects-box {
-        display: grid;
-        font-size: 25px;
-        grid-row: 5;
-        grid-column: 3/5;
-        height: 350px;
-        width: 40vw;
-    }
-
-    #projects-content {
-        padding-top: 1em;
-    }
+#name {
+    font-size: 4em;
+}
+#title {
+    font-size: 3em;
+}
 
 
-    #email {
-        font-size: 2em;
-     }
-    
-    #github, 
-    #linkdin-link {
-        font-size: 5em;
-    }
+.site-main {
+    font-size: 1.5em;
+    margin: 2rem;
+}
 
-    .contact-info {
-        display: flex;
-        flex-direction: row;
-        padding: 2em;
-        padding-top: 4em;
-        justify-content: space-evenly;
-    }
+#skills-box,
+#projects-box {
+    margin: 2rem;
+}  
+
+#projects-content {
+    padding-top: 1em;
+    justify-content: space-around;
+} 
+
+#email {
+    font-size: 2em;
+}
+
+#github, 
+#linkdin-link {
+    font-size: 5em;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: row;
+    padding: 2em;
+    padding-top: 4em;
+    justify-content: space-evenly;
+}
     
 }
