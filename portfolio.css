@@ -79,13 +79,12 @@ body {
 }
 
 .skill-list{
-    padding-bottom: 1.5em;
+    line-height: 1em;
+    padding-left: 1em;
 }
 
-#skills-icons {
-    display: flex;
-    justify-content: space-around;
-    font-size: 3em;
+.skill-cat {
+    font-weight: bold;
 }
 
 #skills-text {
