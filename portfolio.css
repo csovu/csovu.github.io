@@ -114,7 +114,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 1em;
+    /* padding: 1em; */
 }
 
 .projects {
@@ -146,7 +146,7 @@ body {
 #linkdin-link {
     font-size: 3em;
 }
-
+/* 
 #github:hover {
     animation: fa-flip 2s infinite linear;
 }
@@ -157,7 +157,7 @@ body {
 
 #email:hover {
     animation: fa-beat 2s infinite;
-}
+} */
 
 
 @media screen and (min-width: 700px) {
