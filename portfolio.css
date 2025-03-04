@@ -47,7 +47,7 @@ body {
 
 #education-box {
     padding: 1em;
-    line-height: 2em;
+    /* line-height: 2em; */
     /* border: 2px solid rgba(128, 128, 128, 0.247); */
     box-shadow: 5px 5px 5px rgba(167, 186, 192, 0.598);
     margin: 1rem;
